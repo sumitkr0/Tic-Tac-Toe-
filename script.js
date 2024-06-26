@@ -57,6 +57,7 @@ const showWinner = (winner) => {
   disableBoxes();
 };
 
+// for checking the winner
 const checkWinner = () => {
   for (let pattern of winPatterns) {
     // console.log(pattern[0], pattern[1], pattern[2]);
